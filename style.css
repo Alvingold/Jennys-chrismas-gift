@@ -88,17 +88,19 @@ h1{
 }
 
 
-@keyframes slideIn {
-    from {
-        transform: translateX(-100%);
-    }
-    to {
-        transform: translateX(0);
-    }
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
 }
 
-.animated-element {
-    animation: slideIn 3s ease-out;
+/* Apply the fade-in animation to the body or any element */
+.fade-in {
+  animation: fadeIn 2s ease-in-out; /* 2s for animation duration */
+  opacity: 0; /* Start with invisible */
 }
 
 .rose{
@@ -303,7 +305,7 @@ h1{
 
     .leaf {
         top: 60px;
-        left: -42px;
+        left: -43.5px;
         transform: scale(0.7);
     }
 

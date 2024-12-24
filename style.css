@@ -26,7 +26,6 @@ h1{
     color: black;
     font-size: clamp(18px, 4vw, 24px);
     text-align: center;
-    margin-top: 10%;
 }
 
 .sparkle-link {
@@ -222,6 +221,7 @@ h1{
     .letter {
         width: 100%;
         height: auto;
+        margin-top: 10%;
     }
 
     .rose {

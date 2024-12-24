@@ -24,6 +24,7 @@ body{
 
 h1{
     color: black;
+    font-family: 'Sacramento', cursive;
     font-size: clamp(18px, 4vw, 24px);
     text-align: center;
 }
@@ -275,7 +276,7 @@ h1{
     .letter {
         width: 100%;
         height: auto;
-        margin-top: 20%;
+        margin-top: 15%;
     }
 
     .rose {

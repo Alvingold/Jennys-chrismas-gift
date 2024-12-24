@@ -88,19 +88,20 @@ h1{
 }
 
 
+/* Define the fade-in animation */
 @keyframes fadeIn {
   0% {
-    opacity: 0;
+    opacity: 0; /* Start invisible */
   }
   100% {
-    opacity: 1;
+    opacity: 1; /* End fully visible */
   }
 }
 
 /* Apply the fade-in animation to the body or any element */
 .fade-in {
-  animation: fadeIn 2s ease-in-out; /* 2s for animation duration */
-  opacity: 0; /* Start with invisible */
+  opacity: 0; /* Ensure the element starts invisible */
+  animation: fadeIn 2s ease-in-out forwards; /* 'forwards' ensures the final state persists */
 }
 
 .rose{

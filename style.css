@@ -261,8 +261,61 @@ h1{
         margin-left: -35px;
     }
 
-
     h1 {
         font-size: 15px;
+    }
+}
+
+@media (max-width: 480px) {
+    .container {
+        width: 90%;
+        height: auto;
+    }
+
+    .letter {
+        width: 100%;
+        height: auto;
+        margin-top: 20%;
+    }
+
+    .rose {
+        width: 100px;
+        height: 120px;
+        position: relative;
+        right: auto;
+        margin: 0 auto;
+    }
+
+    .leaf {
+        top: 60px;
+        left: -55px;
+        transform: scale(0.7);
+    }
+
+    .stem {
+        width: 140px;
+        height: 20px;
+    }
+
+    .leafs {
+        width: 10px;
+        height: 30px;
+        background: #77a377;
+        position: absolute;
+        left: 80px;
+        z-index: 49;
+    }
+
+    .leafs:nth-child(2) {
+        width: 30px;
+        height: 15px;
+        top: 30px;
+        left: 110px;
+        transform: rotate(-45deg);
+        margin-left: -25px;
+    }
+
+    h1 {
+        font-size: 12px;
     }
 }

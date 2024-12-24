@@ -87,6 +87,20 @@ h1{
     display: inline-block;
 }
 
+
+@keyframes slideIn {
+    from {
+        transform: translateX(-100%);
+    }
+    to {
+        transform: translateX(0);
+    }
+}
+
+.animated-element {
+    animation: slideIn 3s ease-out;
+}
+
 .rose{
     width: 180px;
     height: 200px;
